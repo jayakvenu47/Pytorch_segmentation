@@ -16,6 +16,15 @@ cd pytorch_segmentation
 - [x] Use overlay script to generate the overlay image(overlay.py).
 
 
+<p float="left">
+  <img src="demo/image.jpg" width="100" />
+  <img src="demo/image.jpg" width="100" /> 
+  <img src="demo/image.jpg" width="100" />
+</p>
+
+
+
+
 
 ### Dataset
 
