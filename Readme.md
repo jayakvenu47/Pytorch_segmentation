@@ -45,27 +45,53 @@ usage: train.py [-h] [--data DATA] [--scale SCALE] [--num-classes NUM_CLASSES] [
 UNet training arguments
 
 options:
-  -h, --help            show this help message and exit
-  --data DATA           Directory containing the dataset (default: './data')
-  --scale SCALE         Scale factor for input image size (default: 0.5)
-  --num-classes NUM_CLASSES
-                        Number of output classes (default: 2)
-  --weights WEIGHTS     Path to pretrained model weights (default: '')
-  --epochs EPOCHS       Number of training epochs (default: 10)
-  --batch-size BATCH_SIZE
-                        Batch size for training (default: 4)
-  --num-workers N       Number of data loading workers (default: 8)
-  --lr LR               Learning rate (default: 1e-5)
-  --weight-decay WEIGHT_DECAY
-                        Weight decay (default: 1e-8)
-  --momentum MOMENTUM   Momentum (default: 0.9)
-  --amp                 Enable mixed precision training
-  --print-freq PRINT_FREQ
-                        Frequency of printing training progress (default: 10)
-  --resume RESUME       Path to checkpoint to resume training from (default: '')
-  --use-deterministic-algorithms
-                        Forces the use of deterministic algorithms only.
-  --save-dir SAVE_DIR   Directory to save model weights (default: 'weights')
+-h, --help
+Display the help message and exit.
+
+--data DATA
+Path to the dataset directory (default: ./data).
+
+--scale SCALE
+Factor to scale the input images (default: 0.5).
+
+--num-classes NUM_CLASSES
+The number of output classes (default: 2).
+
+--weights WEIGHTS
+Path to the file containing pretrained model weights (default: '').
+
+--epochs EPOCHS
+Number of epochs for training (default: 10).
+
+--batch-size BATCH_SIZE
+Size of each training batch (default: 4).
+
+--num-workers N
+Number of workers for data loading (default: 8).
+
+--lr LR
+Learning rate (default: 1e-5).
+
+--weight-decay WEIGHT_DECAY
+Weight decay (default: 1e-8).
+
+--momentum MOMENTUM
+Momentum value (default: 0.9).
+
+--amp
+Enable automatic mixed precision training.
+
+--print-freq PRINT_FREQ
+How often to print training progress (default: 10).
+
+--resume RESUME
+File path to resume training from a checkpoint (default: '').
+
+--use-deterministic-algorithms
+Enforce the use of deterministic algorithms.
+
+--save-dir SAVE_DIR
+Directory where model weights will be saved (default: weights).
 ```
 
 Train the model
