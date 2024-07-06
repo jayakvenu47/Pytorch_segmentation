@@ -16,17 +16,19 @@ cd pytorch_segmentation
 - [x] Use overlay script to generate the overlay image(overlay.py).
 
 
+
+## Results
 <p float="left">
   <figure style="display: inline-block; margin-right: 10px;">
-    <img src="demo/image.jpg" width="300" />
+    <img src="demo/image.jpg" width="400" />
     <figcaption>Original Image</figcaption>
   </figure>
   <figure style="display: inline-block; margin-right: 10px;">
-    <img src="demo/image_mask.jpg" width="300" />
+    <img src="demo/image_mask.png" width="400" />
     <figcaption>Mask Image</figcaption>
   </figure>
   <figure style="display: inline-block;">
-    <img src="demo/output_image.png" width="300" />
+    <img src="demo/output_image.png" width="400" />
     <figcaption>Overlay Image</figcaption>
   </figure>
 </p>
