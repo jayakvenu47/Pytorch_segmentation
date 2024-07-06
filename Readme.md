@@ -17,9 +17,18 @@ cd pytorch_segmentation
 
 
 <p float="left">
-  <img src="demo/image.jpg" width="100" />
-  <img src="demo/image.jpg" width="100" /> 
-  <img src="demo/image.jpg" width="100" />
+  <figure style="display: inline-block; margin-right: 10px;">
+    <img src="demo/image.jpg" width="300" />
+    <figcaption>Original Image</figcaption>
+  </figure>
+  <figure style="display: inline-block; margin-right: 10px;">
+    <img src="demo/image_mask.jpg" width="300" />
+    <figcaption>Mask Image</figcaption>
+  </figure>
+  <figure style="display: inline-block;">
+    <img src="demo/output_image.png" width="300" />
+    <figcaption>Overlay Image</figcaption>
+  </figure>
 </p>
 
 
