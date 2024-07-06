@@ -48,49 +48,49 @@ options:
 -h, --help
 Display the help message and exit.
 
---data DATA
+-data DATA
 Path to the dataset directory (default: ./data).
 
---scale SCALE
+-scale SCALE
 Factor to scale the input images (default: 0.5).
 
---num-classes NUM_CLASSES
+-num-classes NUM_CLASSES
 The number of output classes (default: 2).
 
---weights WEIGHTS
+-weights WEIGHTS
 Path to the file containing pretrained model weights (default: '').
 
---epochs EPOCHS
+-epochs EPOCHS
 Number of epochs for training (default: 10).
 
---batch-size BATCH_SIZE
+-batch-size BATCH_SIZE
 Size of each training batch (default: 4).
 
---num-workers N
+-num-workers N
 Number of workers for data loading (default: 8).
 
---lr LR
+-lr LR
 Learning rate (default: 1e-5).
 
---weight-decay WEIGHT_DECAY
+-weight-decay WEIGHT_DECAY
 Weight decay (default: 1e-8).
 
---momentum MOMENTUM
+-momentum MOMENTUM
 Momentum value (default: 0.9).
 
---amp
+-amp
 Enable automatic mixed precision training.
 
---print-freq PRINT_FREQ
+-print-freq PRINT_FREQ
 How often to print training progress (default: 10).
 
---resume RESUME
+-resume RESUME
 File path to resume training from a checkpoint (default: '').
 
---use-deterministic-algorithms
+-use-deterministic-algorithms
 Enforce the use of deterministic algorithms.
 
---save-dir SAVE_DIR
+-save-dir SAVE_DIR
 Directory where model weights will be saved (default: weights).
 ```
 
@@ -110,13 +110,20 @@ usage: inference.py [-h] [--model-path MODEL_PATH] [--image-path IMAGE_PATH] [--
 Image Segmentation Inference
 
 options:
-  -h, --help            show this help message and exit
-  --model-path MODEL_PATH
-                        Path to the model weights
-  --image-path IMAGE_PATH
-                        Path to the input image
-  --scale SCALE         Scale factor for resizing the image
-  --save-overlay        Save the overlay image if this flag is set
+-h, --help
+Display the help message and exit.
+
+-model-path MODEL_PATH
+Specify the file path to the model weights.
+
+-image-path IMAGE_PATH
+Provide the file path to the input image.
+
+-scale SCALE
+Set the scale factor for resizing the image.
+
+-save-overlay
+Use this flag to save the overlay image.
 ```
 
 Inference
