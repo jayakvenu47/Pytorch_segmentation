@@ -20,19 +20,20 @@ cd pytorch_segmentation
 ## Results
 <p float="left">
   <figure style="display: inline-block; margin-right: 10px;">
-    <img src="demo/image_1.jpg" width="250" />
+    <img src="demo/image_1.jpg" width="300" />
     <figcaption>Original Image</figcaption>
   </figure>
   <figure style="display: inline-block; margin-right: 10px;">
-    <img src="demo/image_mask_1.png" width="250" />
+    <img src="demo/image_mask_1.png" width="300" />
     <figcaption>Mask Image</figcaption>
   </figure>
   <figure style="display: inline-block;">
-    <img src="demo/output_image_1.png" width="250" />
+    <img src="demo/output_image_1.png" width="300" />
     <figcaption>Overlay Image</figcaption>
   </figure>
 </p>
 
+<hr>
 
 <p float="left">
   <figure style="display: inline-block; margin-right: 10px;">
