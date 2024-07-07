@@ -18,6 +18,26 @@ cd pytorch_segmentation
 
 
 ## Examples
+
+<p float="left">
+  <figure style="display: inline-block; margin-right: 10px;">
+    <img src="demo/image.jpg" width="300" />
+    <figcaption>Original Image</figcaption>
+  </figure>
+  <figure style="display: inline-block; margin-right: 10px;">
+    <img src="demo/image_mask.png" width="300" />
+    <figcaption>Mask Image</figcaption>
+  </figure>
+  <figure style="display: inline-block;">
+    <img src="demo/output_image.png" width="300" />
+    <figcaption>Overlay Image</figcaption>
+  </figure>
+</p>
+
+<hr>
+<hr>
+
+
 <p float="left">
   <figure style="display: inline-block; margin-right: 10px;">
     <img src="demo/image_1.jpg" width="300" />
@@ -33,22 +53,9 @@ cd pytorch_segmentation
   </figure>
 </p>
 
-<hr>
 
-<p float="left">
-  <figure style="display: inline-block; margin-right: 10px;">
-    <img src="demo/image.jpg" width="400" />
-    <figcaption>Original Image</figcaption>
-  </figure>
-  <figure style="display: inline-block; margin-right: 10px;">
-    <img src="demo/image_mask.png" width="400" />
-    <figcaption>Mask Image</figcaption>
-  </figure>
-  <figure style="display: inline-block;">
-    <img src="demo/output_image.png" width="400" />
-    <figcaption>Overlay Image</figcaption>
-  </figure>
-</p>
+
+
 
 
 
