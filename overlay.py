@@ -1,8 +1,8 @@
 from PIL import Image, ImageEnhance
 
 # Load the car and mark images
-car_image_path = '/home/jk/projects/segmentation/unet-pytorch/demo/image.jpg'
-mark_image_path = '/home/jk/projects/segmentation/unet-pytorch/demo/image_mask.png'
+car_image_path = '/home/jk/projects/segmentation/seg/pytorch_segmentation/demo/image.jpg'
+mark_image_path = '/home/jk/projects/segmentation/seg/pytorch_segmentation/demo/image_mask.png'
 
 car = Image.open(car_image_path).convert("RGBA")
 mark = Image.open(mark_image_path).convert("RGBA")
@@ -23,7 +23,7 @@ for x in range(mark.width):
 combined = Image.alpha_composite(car, mark_with_transparency)
 
 # Save the final image
-output_path = '/home/jk/projects/segmentation/unet-pytorch/demo/output_image.png'
+output_path = '/home/jk/projects/segmentation/seg/pytorch_segmentation/demo/output_image.png'
 combined.save(output_path)
 
 # Display the final image (optional)
