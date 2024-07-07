@@ -17,7 +17,7 @@ cd pytorch_segmentation
 
 
 
-## Results
+## Examples
 <p float="left">
   <figure style="display: inline-block; margin-right: 10px;">
     <img src="demo/image_1.jpg" width="300" />
